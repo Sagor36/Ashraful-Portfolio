@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#070B1A">
+  <meta name="description" content="Ashraful Islam — Digital Marketing, SEO, YouTube Promotion and Google Ads portfolio.">
+  <title>Ashraful Islam | Digital Marketing Expert</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #070615;
+      --bg-2: #0f0b2a;
+      --cyan: #67e8f9;
+      --cyan-2: #22d3ee;
+      --violet: #a78bfa;
+      --pink: #f472b6;
+      --orange: #fb923c;
+      --ink: #e8eefc;
+      --muted: #8290ad;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      overflow-x: hidden;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -2;
+      background:
+        radial-gradient(circle at 8% 12%, rgba(34,211,238,.18), transparent 24%),
+        radial-gradient(circle at 88% 18%, rgba(167,139,250,.17), transparent 25%),
+        radial-gradient(circle at 70% 72%, rgba(244,114,182,.10), transparent 24%),
+        radial-gradient(circle at 20% 82%, rgba(251,146,60,.08), transparent 22%),
+        linear-gradient(135deg, #070615 0%, #0b0a20 38%, #120b2b 68%, #070615 100%);
+    }
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      opacity: .22;
+      background-image: linear-gradient(rgba(255,255,255,.035) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.035) 1px, transparent 1px);
+      background-size: 64px 64px;
+      mask-image: linear-gradient(to bottom, black, transparent 80%);
+    }
+    .font-serif { font-family: 'Playfair Display', serif; }
+    .site-shell { position: relative; isolation: isolate; }
+    .glass {
+      background: rgba(7, 11, 26, .72);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      border: 1px solid rgba(255,255,255,.08);
+    }
+    .gold-gradient { background: linear-gradient(135deg, #67e8f9 0%, #8b5cf6 45%, #f472b6 75%, #fb923c 100%); }
+    .aurora-gradient { background: linear-gradient(120deg, #22d3ee 0%, #8b5cf6 35%, #ec4899 68%, #fb923c 100%); background-size: 220% 220%; animation: aurora 8s ease infinite; }
+    @keyframes aurora { 0%,100% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } }
+    .text-gradient {
+      background: linear-gradient(100deg, #67e8f9 0%, #a78bfa 38%, #f472b6 70%, #fb923c 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+    .neon-border {
+      border: 1px solid rgba(103,232,249,.18);
+      box-shadow: 0 0 24px rgba(34,211,238,.05);
+      transition: all .35s ease;
+    }
+    .neon-border:hover {
+      border-color: rgba(103,232,249,.5);
+      box-shadow: 0 0 35px rgba(34,211,238,.12), 0 0 60px rgba(167,139,250,.06);
+    }
+    .section-glow { position: relative; }
+    .section-glow::before {
+      content: '';
+      position: absolute;
+      width: 420px;
+      height: 420px;
+      border-radius: 999px;
+      left: 50%;
+      top: 10%;
+      transform: translateX(-50%);
+      background: radial-gradient(circle, rgba(34,211,238,.055), transparent 68%);
+      filter: blur(20px);
+      pointer-events: none;
+    }
+    main > section { animation: sectionFade .9s ease both; }
+    @keyframes sectionFade { from { opacity: .15; } to { opacity: 1; } }
+    .service-card { position: relative; transform: translateY(0); transition: transform .5s cubic-bezier(.2,.8,.2,1), box-shadow .5s ease, border-color .5s ease; }
+    .service-card::after { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: 0; background: radial-gradient(circle at 50% 0%, rgba(103,232,249,.12), transparent 42%); transition: opacity .5s ease; }
+    .service-card:hover { transform: translateY(-10px); box-shadow: 0 30px 80px rgba(0,0,0,.32), 0 0 45px rgba(34,211,238,.08); }
+    .service-card:hover::after { opacity: 1; }
+    .service-card img { filter: saturate(.92) contrast(1.04); }
+    .service-card:hover img { filter: saturate(1.08) contrast(1.06); }
+    .review-card { transform: translateY(0); }
+    .review-card:hover { transform: translateY(-8px); box-shadow: 0 24px 70px rgba(0,0,0,.28), 0 0 35px rgba(34,211,238,.06); }
+    .reveal-up { animation: revealUp .75s cubic-bezier(.2,.8,.2,1) both; }
+    @keyframes revealUp { from { opacity: 0; transform: translateY(28px); } to { opacity: 1; transform: translateY(0); } }
+    .float-slow { animation: floatSlow 7s ease-in-out infinite; }
+    @keyframes floatSlow { 0%,100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-12px) rotate(2deg); } }
+    .pulse-ring { animation: pulseRing 2.8s ease-in-out infinite; }
+    @keyframes pulseRing { 0%,100% { box-shadow: 0 0 0 0 rgba(103,232,249,.14); } 50% { box-shadow: 0 0 0 12px rgba(103,232,249,0); } }
+    ::selection { background: #67e8f9; color: #07111c; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #070b1a; }
+    ::-webkit-scrollbar-thumb { background: linear-gradient(#22d3ee,#8b5cf6); border-radius: 10px; }
+    ::-webkit-scrollbar-thumb:hover { background: #67e8f9; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: .01ms !important; }
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
