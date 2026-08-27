@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     e.preventDefault();
     setIsSubmitting(true);
     setTimeout(() => {
-      setStatus({ type: 'success', message: 'Message sent! Ashraful Islam will contact you shortly.' });
+      setStatus({ type: 'success', message: 'Message sent! Asraful Islam will contact you shortly.' });
       setFormData({ firstName: '', lastName: '', email: '', message: '' });
       setIsSubmitting(false);
       setTimeout(() => setStatus({ type: null, message: '' }), 5000);
