@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
         {/* Final Bottom Bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-600 text-[10px] font-black uppercase tracking-[0.4em]">
-            &copy; 2025 Ashraful Islam. All Rights Reserved.
+            &copy; 2025 Asraful Islam. All Rights Reserved.
           </p>
           <div className="flex gap-8 text-[9px] font-black uppercase tracking-[0.2em] text-gray-700">
             <a href="#" className="hover:text-cyan-300 transition-all">Privacy Policy</a>
