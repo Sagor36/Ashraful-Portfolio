@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   const details = [
-    { label: 'Full Name', value: 'Ashraful Islam' },
+    { label: 'Full Name', value: 'Asraful Islam' },
     { label: 'Email Address', value: 'bdasrafulsm@gmail.com' },
     { label: 'WhatsApp / Phone', value: '01516557095' },
     { label: 'Instagram', value: '@bdasrafulsm' },
@@ -18,7 +18,7 @@ const About: React.FC = () => {
           <div className="relative rounded-3xl overflow-hidden shadow-2xl">
             <img 
               src="https://blogger.googleusercontent.com/img/a/AVvXsEgoAEBHOPuxamg1X6ps2NJASZKyjk7HtqfxrMschZNTFw08zxIStS3hCp8anPvw0RCPFc4F9cpZg_5QNs7B0TLDezqQi0BMAlVlWhjuNUgeS5eEzsy6BhVHgbxLTpbn94D1AslnWnFcF-qJUocNKJCrnR6SLhTnItX7EMGbgQxL__F0lQDPRLVM94geBA" 
-              alt="Ashraful Islam working" 
+              alt="Asraful Islam working" 
               className="w-full h-auto grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
             />
           </div>
