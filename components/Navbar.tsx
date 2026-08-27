@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
     <nav className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-300 ${isScrolled || isMenuOpen ? 'glass py-4 shadow-2xl' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="text-2xl font-extrabold tracking-tighter text-gradient relative z-50 transition-transform hover:scale-105 active:scale-95">
-          Ashraful Islam<span className="text-white">.</span>
+          Asraful Islam<span className="text-white">.</span>
         </a>
         
         {/* Desktop Links */}
