@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         <div className="relative w-56 h-56 md:w-72 md:h-72 rounded-full overflow-hidden border-4 border-[#0a0a0a] shadow-2xl bg-[#111]">
           <img 
             src="https://blogger.googleusercontent.com/img/a/AVvXsEj7921krTdhyr_1_cARDAmkByJr8BbzlH-ZzvqjVg14kCblU1RyIHbEF6xit_NIps7oP50ezCYRFqpfwsKvAiWHSWTX4W3TN7BVO6Kc8KYgjo0qcuOebf9kxwGzIKVUNtTIJ6DW8wMR6hss_88srfjDiqg0gFhQTn86V0HtGq3bogngz9FmIs7IKZ3xLw" 
-            alt="Ashraful Islam" 
+            alt="Asraful Islam" 
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
         </div>
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
         </span>
         
         <h1 className="text-4xl md:text-7xl font-extrabold mb-8 leading-[1.1] tracking-tight">
-          Hello, I'm <span className="text-gradient italic font-serif">Ashraful Islam</span>, 
+          Hello, I'm <span className="text-gradient italic font-serif">Asraful Islam</span>, 
           <br className="hidden md:block" /> a professional digital marketer.
         </h1>
 
